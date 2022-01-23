@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 feature "Clinicas", type: :feature do
-    scenario 'Mostra tela de clientes' do
+    scenario 'Mostra tela das clinicas' do
         visit('/clinicas')
         expect(page).to have_content('Clinicas')
     end
