@@ -13,4 +13,8 @@ feature "Clientes", type: :feature do
         visit('/clientes/new')
         expect(page).to have_content('Cpf')
     end
+    scenario 'Checa botão' do
+        visit('/clientes/new')
+        expect(page).to have_selector('a')
+    end
 end
