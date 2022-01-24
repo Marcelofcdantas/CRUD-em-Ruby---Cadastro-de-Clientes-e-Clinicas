@@ -8,26 +8,26 @@ Este aplicativo serve para criar, editar, alterar e deletar cadastro de clientes
 
 1 - Clone o repositório:
 
-git clone https://github.com/Marcelofcdantas/ruby-backend.git.
+`git clone https://github.com/Marcelofcdantas/ruby-backend.git.`
 
 2 - Entre na pasta do repositório que você acabou de clonar:
 
-ruby-backend
+`ruby-backend`
 
 3 - Instale a dependência bundler:
 
-gem install bundler
+`gem install bundler`
 
 4 - Instale as dependências do projeto:
 
-bundle install
+`bundle install`
 
 
 ## Usando o Aplicativo
 
 use o comando:
 
-rails server
+`rails server`
 
 
 Agora basta acessar um dos endereços abaixo para começar a usar:
