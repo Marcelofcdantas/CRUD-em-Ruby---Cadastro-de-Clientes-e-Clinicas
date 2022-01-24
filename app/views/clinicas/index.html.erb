@@ -32,9 +32,9 @@
         <td><%= clinica.cidade %></td>
         <td><%= clinica.estado %></td>
         <td><%= clinica.cep %></td>
-        <td><%= link_to 'Show', clinica %></td>
-        <td><%= link_to 'Edit', edit_clinica_path(clinica) %></td>
-        <td><%= link_to 'Destroy', clinica, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Mostrar', clinica %></td>
+        <td><%= link_to 'Editar', edit_clinica_path(clinica) %></td>
+        <td><%= link_to 'Deletar', clinica, method: :delete, data: { confirm: 'Confirma a operação?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -42,4 +42,8 @@
 
 <br>
 
-<%= link_to 'New Clinica', new_clinica_path %>
+<%= link_to 'Nova Clinica', new_clinica_path %>
+
+<br>
+<br>
+<%= link_to 'ir para Cadastro de Clientes', clientes_path %>
