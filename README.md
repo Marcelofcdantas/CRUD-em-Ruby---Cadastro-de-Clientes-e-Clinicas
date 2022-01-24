@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CRUD em Ruby on Rails com testes em Rspec
 
-Things you may want to cover:
+# Como baixar e usar
 
-* Ruby version
+1 - Clone o repositório:
 
-* System dependencies
+git clone https://github.com/Marcelofcdantas/ruby-backend.git.
 
-* Configuration
+2 - Entre na pasta do repositório que você acabou de clonar:
 
-* Database creation
+ruby-backend
 
-* Database initialization
+3 - Instale a dependência bundler:
 
-* How to run the test suite
+gem install bundler
 
-* Services (job queues, cache servers, search engines, etc.)
+4 - Instale as dependências do projeto:
 
-* Deployment instructions
+bundle install
 
-* ...
+
+## Usando o Aplicativo
+
+use o comando:
+
+rails server
+
+
+Agora basta acessar um dos endereços abaixo para começar a usar:
+
+http://localhost:3000/clientes
+
+ou
+
+http://localhost:3000/clinicas
