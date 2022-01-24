@@ -1,6 +1,8 @@
 # README
 
-CRUD em Ruby on Rails com testes em Rspec
+CRUD em Ruby on Rails com testes em Rspec e banco de dados Postgresql
+
+Este aplicativo serve para criar, editar, alterar e deletar cadastro de clientes e de clínicas
 
 # Como baixar e usar
 
